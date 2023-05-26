@@ -1,0 +1,149 @@
+body {
+    font-family: monospace;
+    font-size: 12pt;
+    margin: 0px;
+
+}
+
+section {
+    text-align: center;
+
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 10%;
+    padding: 1%;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+    margin-top:30px;
+}
+
+nav ul {
+    width:50%;
+    margin-left: auto;
+}
+
+li a {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 4px
+
+}
+
+.heroImg {
+    text-align: center;
+}
+
+.heroImg div img {
+    height: 600px;
+    padding: 25px;
+    filter: drop-shadow(16px 16px 20px rgb(225, 138, 138));
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #9faf8b;
+    margin-top: 25px;
+    padding: 30px;
+    margin-top: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer ul {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline;
+    text-align: center;
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2rem;
+    justify-content: between;
+}
+
+.flexContainer div {
+    width: 30%;
+    flex-grow: 1;
+    margin: 0px 20px
+}
+
+.mySkills {
+    text-align: center;
+}
+
+#myUXheader {
+    margin-top: 2rem;
+}
+.myWork {
+    background-color: antiquewhite;
+    padding: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.workGrid div {
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.workGrid img {
+    height: 30%;
+    width: 30%;
+    margin-top: 1rem;
+}
+
+.myWork h1 {
+    text-align: center;
+}
+
+.myWork h3{
+    margin: 3rem
+}
+
+button {
+    border-radius: 50px;
+    border-color: green;
+    height: 40px;
+    width: 150px;
+    font-family: monospace;
+}
+
+@media (max-width: 650px) {
+    .flexContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flexContainer div {
+        width: 90%;
+        margin: 0px 20px
+    }
+}
+
+
+

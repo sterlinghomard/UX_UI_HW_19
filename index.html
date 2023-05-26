@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Sterling's portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="inline-block logo">
+            <img src="./images/S.png" alt="sterling logo"/>
+
+        </div>
+        <nav class="inline-block">
+                <ul>
+                    <li class="inline-block"><a href="#aboutMe">about me</a></li>
+                    <li class="inline-block"><a href="#myUXskills">my skills</a></li>
+                    <li class="inline-block"><a href="#myWork">my work</a></li>
+                    <li class="inline-block"><a href="">contact</a></li>
+                </ul>
+        </nav>
+    </header>
+    <section class="heroImg" id="aboutMe">
+        <div class="content">
+            <img src="./images/Subject.png" alt="sterling">
+            <p>I’m a designer, environmental journalist, and outdoors enthusiast geared toward practicality, beauty, and human enjoyment. When I’m not redesigning organizations’ interfaces, I can be found rock climbing, watching critically-acclaimed movies, shooting photography, and writing music. 
+            </p>
+            <button>Download Resume</button>
+        </div>
+    </section>
+     <!--  My UX Skills section coded using CSS flex -->
+    <section class="mySkills" id="myUXskills">
+        <h1 id="myUXheader">My UX Skills</h1>
+        <div class="flexContainer">
+            <div class="fade">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg>
+                <h3>User Research</h3>
+                <p>I embody the design thinking process by empathizing with users. This, along with my 6 years of research experience, creates the foundation for quality design
+                </p>
+            </div>
+            <div class="fade">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain-circuit"><path d="M12 4.5a2.5 2.5 0 0 0-4.96-.46 2.5 2.5 0 0 0-1.98 3 2.5 2.5 0 0 0-1.32 4.24 3 3 0 0 0 .34 5.58 2.5 2.5 0 0 0 2.96 3.08 2.5 2.5 0 0 0 4.91.05L12 20V4.5Z"></path><path d="M16 8V5c0-1.1.9-2 2-2"></path><path d="M12 13h4"></path><path d="M12 18h6a2 2 0 0 1 2 2v1"></path><path d="M12 8h8"></path><path d="M20.5 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path><path d="M16.5 13a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path><path d="M20.5 21a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path><path d="M18.5 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path></svg>
+                <h3>Intuitive Creations</h3>
+                <p>I don’t complicate things. I do what’s intuitive while building efficiency for the user.
+                </p>
+            </div>
+            <div class="fade">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-tool"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+                <h3>Craftsmanship</h3>
+                <p>I like to see design as an opportunity to create practical art. I take pride in the things I make.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="myWork" id="myWork">
+        <h1>My Work</h1>
+        <div class="workGrid">
+            <div>
+                <img src="./images/meander.png" alt="meander app prototypes">
+            </div>
+            <div id="meander">
+                <h4>Meander travel app</h4>
+                <p>In a post-pandemic world, travelers are constantly seeking resources to ensure that their trips provide safe, engaging accommodations, but individuals have varying levels of comfortability with hitting the busiest spots.
+
+                    Meander allows travelers to locate local hotspots with real-time data, and provides a virtual hub to converse with locals to learn the ins-and-outs of a new place.
+                    
+                    In this project, I executed every part of the design process from initial ideation and interviews to wireframing and prototyping.</p>
+                <button>Let's Meander</button>
+            </div>
+            <div>
+                <img src="./images/DOE.png" alt="">
+            </div>
+            <div id="doe">
+                <h4>U.S. Department of Energy redesign</h4>
+                <p>The U.S. Department of Energy website can be useful, but the information we seek is often hard to find.
+
+                    In this project, I created a website that is intuitive, attractive, and presents information clearly, all while portraying the powerful and credible feel of the government agency.</p>
+                <button>Check out DOE</button>
+            </div>
+            <div>
+                <img src="./images/LAUNCH.png" alt="">
+            </div>
+            <div id="launch">
+                <h4>LAUNCH Skateboarding redesign</h4>
+                <p>In this project, I worked with a team to identify a local nonprofit and work with the stakeholders to redesign their website. 
+
+                    We met with the owner, talked about what's working and what isn’t, and completed a full webpage redesign for mobile and desktop.
+                    
+                    We conducted several rounds of user testing, subsequently iterating our design and landing on a product that the owner loves.
+                    </p>
+                <button>Check out LAUNCH</button>
+            </div>
+        </div>
+        <h3>View All Projects</h3>
+    </section>
+    <footer><ul>
+        <li>(507)990-7004</li>
+        <li><a href="https://www.linkedin.com/in/homard/">LinkedIn</a></li>
+        <li>shomard18@gmail.com</li>
+    </ul></footer>
+</body>
+<script src="js/index.js"></script>
+</html>
